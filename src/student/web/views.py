@@ -8,7 +8,7 @@ def index(request):
     print(students)
     context={
         "students":students,
-        "title": "customers",
+        "title": "The List Of Customers",
     }
     return render(request, 'index.html',context=context)
 
